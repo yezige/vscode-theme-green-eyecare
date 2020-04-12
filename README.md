@@ -12,5 +12,18 @@
 
 My merged font Inconsolata + Yue Yuan: [LZ YueYuan Inconsolata](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/fonts/LZ-YueYuan-Inconsolata.otf)
 
+### Custom Font
+
+If you download and install the font in your system, you can add this option to have a custom font:
+
+```json
+{
+    "editor.fontFamily": "LZ YueYuan Inconsolata"
+}
+```
+
+## What's new?
+
+Click here to go to the [Changelog](https://github.com/yezige/vscode-theme-green-eyecare/blob/master/CHANGELOG.md)
 
 **Enjoy!**
