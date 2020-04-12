@@ -5,6 +5,12 @@
 
 [Green Eyecare](https://github.com/yezige/vscode-theme-green-eyecare) theme based on Material Design.
 
-![](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/preview.png)
+## Screenshots
+![Screenshots](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/preview.png)
+
+## Font
+
+My merged font Inconsolata + Yue Yuan: [LZ YueYuan Inconsolata](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/fonts/LZ-YueYuan-Inconsolata.otf)
+
 
 **Enjoy!**
