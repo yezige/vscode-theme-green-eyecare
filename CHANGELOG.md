@@ -10,4 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   standardized open source project CHANGELOG.
 - Preliminary test completed `Java` `PHP` `JavaScript` `HTML` `Python`
 
+## [0.0.2] - 2020-04-12
+### Added
+- Add Icon
+- Add Custom Font
+
 [0.0.1]: https://github.com/yezige/vscode-theme-green-eyecare/releases/tag/v0.0.1
+[0.0.2]: https://github.com/yezige/vscode-theme-green-eyecare/releases/tag/v0.0.2

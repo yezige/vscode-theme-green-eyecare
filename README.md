@@ -22,6 +22,10 @@ If you download and install the font in your system, you can add this option to 
 }
 ```
 
+OR
+
+![Custom Font](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/custom-font.png)
+
 ## What's new?
 
 Click here to go to the [Changelog](https://github.com/yezige/vscode-theme-green-eyecare/blob/master/CHANGELOG.md)
