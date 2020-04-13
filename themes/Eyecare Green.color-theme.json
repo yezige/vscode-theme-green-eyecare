@@ -35,7 +35,7 @@
     "tab.inactiveForeground": "#97b498",
     "tab.border": "#c8e6c9",
     "badge.background": "#519657",
-    "badge.foreground":"#eeeeee",
+    "badge.foreground": "#eeeeee",
     "statusBar.background": "#c8e6c9",
     "statusBar.foreground": "#519657",
     "statusBarItem.hoverBackground": "#dcedc8",
@@ -59,6 +59,8 @@
     "list.inactiveSelectionForeground": "#519657",
     "list.hoverBackground": "#dcedc8",
     "list.highlightForeground": "#dcedc8",
+    "list.focusBackground": "#dcedc8",
+    "list.inactiveFocusBackground": "#dcedc8",
     "gitDecoration.modifiedResourceForeground": "#00600f",
     "dropdown.background": "#c8e6c9",
     "dropdown.border": "#c5e1a5",
@@ -82,6 +84,7 @@
     { "name": "变量,php变量$,js模块属性,js对象属性,属性,json属性,html标签", "scope": ["variable", "variable.parameter", "punctuation.definition.variable", "punctuation.definition.variable.php", "punctuation.definition.variable.shell", "variable.interpolation", "support.type.object.module", "support.type.object.module.js", "support.type.object.module.ts", "meta.object-literal.key", "meta.object-literal.key.js", "meta.object-literal.key.ts", "support.type.property-name", "support.type.property-name.json", "entity.name.tag"], "settings": { "foreground": "#e57373" } },
     { "name": "双引号,单引号,属性名的字符", "scope": ["string.quoted punctuation", "string.quoted.double punctuation", "string.quoted.single punctuation", "support.type.property-name.json punctuation"], "settings": { "foreground": "#519657" } },
     { "name": "存储", "scope": ["storage", "storage.type", "storage.modifier.package", "storage.modifier.import"], "settings": { "foreground": "#ab47bc" } },
-    { "name": "其他", "scope": ["keyword.other.unit", "constant.other.color", "constant.other.symbol", "entity.other", "markup.quote"], "settings": { "foreground": "#c79100" } }
+    { "name": "其他,标记中的引号,待加粗的,md的code", "scope": ["keyword.other.unit", "constant.other.color", "constant.other.symbol", "entity.other", "markup.quote", "punctuation.definition.bold", "markup.bold", "markup.inline.raw.string"], "settings": { "foreground": "#c79100" } },
+    { "name": "加粗,md前两级标题,待加粗的", "scope": ["heading.1", "heading.2", "punctuation.definition.bold", "markup.bold"], "settings": { "fontStyle": "bold" } }
   ]
 }
