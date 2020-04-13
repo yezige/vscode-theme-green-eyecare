@@ -35,6 +35,7 @@
     "tab.inactiveForeground": "#97b498",
     "tab.border": "#c8e6c9",
     "badge.background": "#519657",
+    "badge.foreground":"#eeeeee",
     "statusBar.background": "#c8e6c9",
     "statusBar.foreground": "#519657",
     "statusBarItem.hoverBackground": "#dcedc8",

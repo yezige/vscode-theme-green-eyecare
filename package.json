@@ -1,56 +1,61 @@
 {
-  "name": "vscode-theme-green-eyecare",
-  "displayName": "Green Eyecare Theme",
-  "description": "Material Green Eyecare Theme",
-  "version": "0.0.2",
-  "engines": {
-    "vscode": "^1.12.0"
-  },
-  "publisher": "yezige",
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "eye protection",
-    "eyecare",
-    "green",
-    "theme",
-    "light"
-  ],
-  "icon": "icon.png",
-  "contributes": {
-    "themes": [
-      {
-        "label": "Eyecare Green",
-        "uiTheme": "vs",
-        "path": "./themes/Eyecare Green.color-theme.json"
-      }
-    ]
-  },
-  "bugs": {
-    "url": "https://github.com/yezige/vscode-theme-green-eyecare/issues",
-    "email": "a@liu.app"
-  },
-  "homepage": "https://github.com/yezige/vscode-theme-green-eyecare",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yezige/vscode-theme-green-eyecare"
-  },
-  "badges": [
-    {
-      "url": "https://vsmarketplacebadge.apphb.com/version/yezige.vscode-theme-green-eyecare.svg",
-      "href": "https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare",
-      "description": "Extension version"
-    },
-    {
-      "url": "https://vsmarketplacebadge.apphb.com/installs/yezige.vscode-theme-green-eyecare.svg",
-      "href": "https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare",
-      "description": "Extension installs"
-    },
-    {
-      "url": "https://vsmarketplacebadge.apphb.com/rating/yezige.vscode-theme-green-eyecare.svg",
-      "href": "https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare",
-      "description": "Extension Rating"
-    }
-  ]
+	"name": "vscode-theme-green-eyecare",
+	"displayName": "Green Eyecare Theme",
+	"description": "Material Green Eyecare Theme",
+	"version": "0.0.2",
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"publisher": "yezige",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"eye protection",
+		"eyecare",
+		"green",
+		"theme",
+		"light"
+	],
+	"icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Eyecare Green",
+				"uiTheme": "vs",
+				"path": "./themes/Eyecare Green.color-theme.json"
+			}
+		]
+	},
+	"bugs": {
+		"url": "https://github.com/yezige/vscode-theme-green-eyecare/issues",
+		"email": "a@liu.app"
+	},
+	"homepage": "https://github.com/yezige/vscode-theme-green-eyecare",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/yezige/vscode-theme-green-eyecare"
+	},
+	"badges": [
+		{
+			"url": "https://vsmarketplacebadge.apphb.com/version/yezige.vscode-theme-green-eyecare.svg",
+			"href": "https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare",
+			"description": "Extension version"
+		},
+		{
+			"url": "https://vsmarketplacebadge.apphb.com/installs/yezige.vscode-theme-green-eyecare.svg",
+			"href": "https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare",
+			"description": "Extension installs"
+		},
+		{
+			"url": "https://vsmarketplacebadge.apphb.com/rating/yezige.vscode-theme-green-eyecare.svg",
+			"href": "https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare",
+			"description": "Extension Rating"
+		}
+	],
+	"__metadata": {
+		"id": "0997d1f9-83e6-473c-b7a5-8d57434001ac",
+		"publisherDisplayName": "yezige",
+		"publisherId": "cac48dab-9d3f-4f57-b0c5-9930a745a1c4"
+	}
 }
