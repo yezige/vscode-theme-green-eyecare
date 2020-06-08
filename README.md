@@ -51,6 +51,10 @@ Installation: [LZ YueYuan Inconsolata](https://raw.githubusercontent.com/yezige/
 ### 1.2.2. Another recommended Microsoft font: Cascadia Code
 Installation: [Cascadia Code](https://github.com/microsoft/cascadia-code)
 
+Screenshots:
+
+![Screenshots](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/preview-cascadia-code.png)
+
 - Set font of VSCode
 
     If you download and install the font in your system, you can add this option to have a custom font:
