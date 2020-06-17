@@ -10,9 +10,9 @@
 
 ## 1.2. Font
 
-### 1.2.1. My merged font Inconsolata + Yue Yuan
+### 1.2.1. My merged font **Inconsolata + Yue Yuan**
 
-Installation: [LZ YueYuan Inconsolata](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/fonts/LZ-YueYuan-Inconsolata.otf)
+Installation: [**LZ YueYuan Inconsolata**](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/fonts/LZ-YueYuan-Inconsolata.otf)
 
 - Set font of VSCode
     
@@ -48,8 +48,8 @@ Installation: [LZ YueYuan Inconsolata](https://raw.githubusercontent.com/yezige/
 
     ![Custom Line Size](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/custom-fontsize.png)
 
-### 1.2.2. Another recommended Microsoft font: Cascadia Code
-Installation: [Cascadia Code](https://github.com/microsoft/cascadia-code)
+### 1.2.2. Another recommended Microsoft font: **Cascadia Code**
+Installation: [**Cascadia Code**](https://github.com/microsoft/cascadia-code)
 
 Screenshots:
 
