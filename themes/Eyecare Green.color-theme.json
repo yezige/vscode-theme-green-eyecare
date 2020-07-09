@@ -71,17 +71,59 @@
   },
   "tokenColors": [
     { "name": "备注", "scope": ["comment", "punctuation.definition.comment"], "settings": { "foreground": "#97b498", "fontStyle": "" } },
-    { "name": "类", "scope": ["entity.name.type", "entity.name.type.class", "entity.name.class", "support.class", "meta.class", "entity.other.inherited-class"], "settings": { "foreground": "#c88719" } },
-    { "name": "关键字", "scope": ["keyword"], "settings": { "foreground": "#ba68c8" } },
+    { "name": "类", "scope": [
+      "entity.name", "entity.name.type", "entity.name.type.class", "entity.name.class", "support.class", "entity.other.inherited-class",// 类
+      "source.java storage.modifier.import", "source.java storage.type"// java import,type
+      ], "settings": { "foreground": "#c88719" } },
+    { "name": "关键字", "scope":
+      [
+        "keyword", "meta.selector", "markup.changed",// 关键字,meta,markup
+        "keyword.operator.new",// new class
+        "keyword.other.unsafe.rust"// rust
+      ], "settings": { "foreground": "#ba68c8" } },
+    { "name": "关键字", "scope":
+      [
+        "source.c keyword.operator", "source.cpp keyword.operator", "source.cs keyword.operator",// 关键字c,cpp,cs
+        "source.elixir variable.definition", "source.elixir variable.anonymous",// elixir
+        "source.go storage.type.string",// go
+        "source.java keyword.operator.instanceof",// java
+        "ng.attribute-with-value string",// ng
+        "source.python keyword.operator.logical.python",// python
+        "source.java keyword.operator.instanceof"// java
+      ], "settings": { "foreground": "#ba68c8" } },
+    { "name": "变量", "scope":
+      [
+        "variable", "variable.parameter", "function.definition",
+        "punctuation.definition.variable", "punctuation.definition.variable.php", "punctuation.definition.variable.shell",
+        "variable.interpolation",// 属性
+        "support.type.object.module", "support.type.object.module.js", "support.type.object.module.ts",// js模块属性,js对象属性
+        "support.type.property-name", "support.type.property-name.json",// json属性
+        "meta.object-literal.key", "meta.object-literal.key.js", "meta.object-literal.key.ts", "meta.definition.variable",
+        "meta.function-call.arguments",// 方法调用中的参数
+        "entity.name.tag",// html标签
+      ], "settings": { "foreground": "#e57373" } },
     { "name": "关键字-ifelse,continue", "scope": ["keyword.control"], "settings": { "foreground": "#ba68c8" } },
-    { "name": "关键字-运算符,元分割符,元类主体,元方法调用,方法参数的标点", "scope": ["keyword.operator", "meta.separator", "meta.tag", "meta.class.body", "meta.method-call", "meta.method", "punctuation.definition.method-parameters", "punctuation.definition.function-parameters", "punctuation.definition.parameters", "punctuation.definition.separator", "punctuation.definition.seperator", "punctuation.definition.array"], "settings": { "foreground": "#616161" } },
-    { "name": "方法名-自定义", "scope": ["entity.name.function", "support.function.any-method", "entity.name.section"], "settings": { "foreground": "#5c6bc0" } },
+    { "name": "关键字-运算符", "scope":
+      [
+        "keyword.operator", "meta.separator", "meta.tag", "meta.class.body", "meta.method-call", "meta.method",// 关键字-运算符,元分割符,元类主体,元方法调用
+        "punctuation.definition.method-parameters", "punctuation.definition.function-parameters", "punctuation.definition.parameters",
+        "punctuation.definition.separator", "punctuation.definition.seperator", "punctuation.definition.array", "punctuation.definition.class",
+        "punctuation.definition.arguments.begin", "punctuation.definition.arguments.end",// 方法参数的标点
+        "punctuation.separator", "punctuation.section.arguments",// 分割
+        "punctuation.terminator.statement",// 分号
+        "punctuation.section.block", "punctuation.section.class",// 大括号
+        "punctuation.section.parens",//小括号
+        "meta.object.member", "meta.objectliteral"// 括号,js冒号
+      ], "settings": { "foreground": "#616161" } },
+    { "name": "方法名-自定义", "scope": ["entity.name.function", "support.function.any-method", "entity.name.section", "meta.function-call.generic"], "settings": { "foreground": "#5c6bc0" } },
     { "name": "方法名-系统", "scope": ["support.function", "keyword.other.special-method"], "settings": { "foreground": "#c8a415" } },
     { "name": "字符串", "scope": ["string"], "settings": { "foreground": "#519657" } },
     { "name": "字符串-正则,`${res}`", "scope": ["string.regexp", "string.regexp keyword.operator", "string.regexp constant.character", "string.interpolated", "meta.template.expression.js punctuation.definition", "meta.template.expression.ts punctuation.definition"], "settings": { "foreground": "#e57373" } },
     { "name": "属性", "scope": ["entity.other.attribute-name"], "settings": { "foreground": "#ab47bc" } },
-    { "name": "常量", "scope": ["constant", "constant.character", "constant.numeric", "constant.language"], "settings": { "foreground": "#c79100" } },
-    { "name": "变量,php变量$,js模块属性,js对象属性,属性,json属性,html标签", "scope": ["variable", "variable.parameter", "punctuation.definition.variable", "punctuation.definition.variable.php", "punctuation.definition.variable.shell", "variable.interpolation", "support.type.object.module", "support.type.object.module.js", "support.type.object.module.ts", "meta.object-literal.key", "meta.object-literal.key.js", "meta.object-literal.key.ts", "support.type.property-name", "support.type.property-name.json", "entity.name.tag"], "settings": { "foreground": "#e57373" } },
+    { "name": "常量", "scope": [
+      "constant", "constant.character", "constant.numeric", "constant.language", "support.variable",
+      "entity.name.function.decorator"// 方法上部@xxx
+      ], "settings": { "foreground": "#c79100" } },
     { "name": "双引号,单引号,属性名的字符", "scope": ["string.quoted punctuation", "string.quoted.double punctuation", "string.quoted.single punctuation", "support.type.property-name.json punctuation"], "settings": { "foreground": "#519657" } },
     { "name": "存储", "scope": ["storage", "storage.type", "storage.modifier.package", "storage.modifier.import"], "settings": { "foreground": "#ab47bc" } },
     { "name": "其他,标记中的引号,待加粗的,md的code", "scope": ["keyword.other.unit", "constant.other.color", "constant.other.symbol", "entity.other", "markup.quote", "punctuation.definition.bold", "markup.bold", "markup.inline.raw.string"], "settings": { "foreground": "#c79100" } },
