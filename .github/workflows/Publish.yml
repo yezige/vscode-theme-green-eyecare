@@ -1,4 +1,4 @@
-name: Publish to marketplace
+name: Publish
 
 on:
   release:
@@ -34,3 +34,5 @@ jobs:
         vsce login ${{ secrets.VSCE_USER }}
         ${{ secrets.VSCE_TOKEN }}
         vsce publish ${RELEASE_VERSION} -p ${{ secrets.VSCE_TOKEN }}
+    - name: Package
+      
