@@ -20,7 +20,7 @@ jobs:
       run: |
         echo ::set-env name=RELEASE_TAG::$(echo ${GITHUB_REF##*/})
         echo ::set-env name=RELEASE_VERSION::$(echo ${GITHUB_REF##*/v})
-        echo "::debug:: TAG: ${RELEASE_TAG}"
+        echo "::debug::TAG: ${RELEASE_TAG}"
     
     - name: Use Node.js
       uses: actions/setup-node@v1
@@ -36,8 +36,6 @@ jobs:
         VSCE_USER: ${{ secrets.VSCE_USER }}
         VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
       run: |
-        vsce login ${VSCE_USER}
-        ${VSCE_TOKEN}
         vsce publish ${RELEASE_VERSION} -p ${VSCE_TOKEN}
     
     - name: Package
