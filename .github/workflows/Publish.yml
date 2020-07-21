@@ -35,7 +35,7 @@ jobs:
       run: |
         vsce login ${{ secrets.VSCE_USER }}
         ${{ secrets.VSCE_TOKEN }}
-        vsce publish ${RELEASE_VERSION} -p ${{ secrets.VSCE_TOKEN }}
+        vsce publish ${RELEASE_VERSION}
     
     - name: Package
       run: |
