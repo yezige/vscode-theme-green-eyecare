@@ -59,3 +59,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.0.4]: https://github.com/yezige/vscode-theme-green-eyecare/releases/tag/v0.0.4
 [0.0.5]: https://github.com/yezige/vscode-theme-green-eyecare/releases/tag/v0.0.5
 [0.0.6]: https://github.com/yezige/vscode-theme-green-eyecare/releases/tag/v0.0.6
+[0.0.7]: https://github.com/yezige/vscode-theme-green-eyecare/releases/tag/v0.0.7
