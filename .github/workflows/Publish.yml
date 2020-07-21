@@ -42,6 +42,7 @@ jobs:
       run: |
         vsce package
         zip ${RELEASE_TAG}.zip *.vsix
+        ls -al
     
     - name: Create Release
       id: create_release
