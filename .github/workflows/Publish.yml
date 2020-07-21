@@ -30,19 +30,19 @@ jobs:
     - name: Install vsce
       run: |
         npm install -g vsce
-      
-    - name: Publish
-      env:
-        VSCE_USER: ${{ secrets.VSCE_USER }}
-        VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
-      run: |
-        vsce publish -p ${VSCE_TOKEN}
     
     - name: Package
       run: |
         vsce package
         zip ${RELEASE_TAG}.zip *.vsix
         ls -al
+    
+    - name: Publish
+      env:
+        VSCE_USER: ${{ secrets.VSCE_USER }}
+        VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
+      run: |
+        vsce publish -p ${VSCE_TOKEN}
     
     - name: Create Release
       id: create_release
