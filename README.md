@@ -2,7 +2,6 @@
 [![Marketplace](https://vsmarketplacebadge.apphb.com/version/yezige.vscode-theme-green-eyecare.svg)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/yezige.vscode-theme-green-eyecare.svg)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/yezige.vscode-theme-green-eyecare.svg)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
-[![Publish](https://github.com/yezige/vscode-theme-green-eyecare/workflows/Publish/badge.svg)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
 
 [Green Eyecare](https://github.com/yezige/vscode-theme-green-eyecare) theme based on Material Design.
 
@@ -83,4 +82,4 @@ Click here to go to the [Changelog](https://github.com/yezige/vscode-theme-green
 
 
 
-## **Enjoy**🎉🎉🎉
+## Enjoy 🎉🎉🎉

@@ -33,9 +33,7 @@ jobs:
       
     - name: Publish
       run: |
-        vsce login ${{ secrets.VSCE_USER }}
-        ${{ secrets.VSCE_TOKEN }}
-        vsce publish ${RELEASE_VERSION}
+        vsce publish ${RELEASE_VERSION} -p ${{ secrets.VSCE_TOKEN }}
     
     - name: Package
       run: |
