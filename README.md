@@ -1,24 +1,24 @@
-<!-- TOC -->
 
-- [Green Eyecare Theme](#green-eyecare-theme)
-  - [1. Screenshots](#1-screenshots)
-  - [2. Install](#2-install)
-    - [2.1. Install using GUI](#21-install-using-gui)
-    - [2.2. Install using Command Palette](#22-install-using-command-palette)
-  - [3. Custom font](#3-custom-font)
-    - [3.1. Microsoft font (recommended): **Cascadia Code**](#31-microsoft-font-recommended-cascadia-code)
-    - [3.2. My merged font: **Inconsolata + Yue Yuan**](#32-my-merged-font-inconsolata--yue-yuan)
-  - [4. What's new?](#4-whats-new)
-  - [5. See my blog for details](#5-see-my-blog-for-details)
-  - [6. Enjoy 🎉🎉🎉](#6-enjoy-)
-
-<!-- /TOC -->
-# Green Eyecare Theme
 [![Marketplace](https://vsmarketplacebadge.apphb.com/version/yezige.vscode-theme-green-eyecare.svg)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/yezige.vscode-theme-green-eyecare.svg)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/yezige.vscode-theme-green-eyecare.svg)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
 
 [Green Eyecare](https://github.com/yezige/vscode-theme-green-eyecare) theme based on Material Design.
+
+<!-- TOC -->
+
+- [1. Screenshots](#1-screenshots)
+- [2. Install](#2-install)
+  - [2.1. Install using GUI](#21-install-using-gui)
+  - [2.2. Install using Command Palette](#22-install-using-command-palette)
+- [3. Custom font](#3-custom-font)
+  - [3.1. Microsoft font (recommended): **Cascadia Code**](#31-microsoft-font-recommended-cascadia-code)
+  - [3.2. My merged font: **Inconsolata + Yue Yuan**](#32-my-merged-font-inconsolata--yue-yuan)
+- [4. What's new?](#4-whats-new)
+- [5. See my blog for details](#5-see-my-blog-for-details)
+- [6. Enjoy 🎉🎉🎉](#6-enjoy-)
+
+<!-- /TOC -->
 
 ## 1. Screenshots
 ![Screenshots](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/preview.png)
