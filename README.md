@@ -48,11 +48,13 @@ If you download and install the font in your system, you can add this option to 
     ```
 
 **Set line height of VSCode**
+
     ```json
     {
         "editor.lineHeight": 22
     }
     ```
+
 **No need to set font size**
 
 ### 3.2. My merged font: **Inconsolata + Yue Yuan**
@@ -76,7 +78,9 @@ If you download and install the font in your system, you can add this option to 
         "editor.fontFamily": "LZ YueYuan Inconsolata"
     }
     ```
+
 **Set line height of VSCode**
+
     ```json
     {
         "editor.lineHeight": 22
@@ -84,6 +88,7 @@ If you download and install the font in your system, you can add this option to 
     ```
 
 **Set font size of VSCode (Only fine fonts are recommended)**
+
     ```json
     {
         "editor.fontSize": 15
