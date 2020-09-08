@@ -1,10 +1,4 @@
 
-[![Marketplace](https://vsmarketplacebadge.apphb.com/version/yezige.vscode-theme-green-eyecare.svg)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/yezige.vscode-theme-green-eyecare.svg)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/yezige.vscode-theme-green-eyecare.svg)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
-
-[Green Eyecare](https://github.com/yezige/vscode-theme-green-eyecare) theme based on Material Design.
-
 <!-- TOC -->
 
 - [1. Screenshots](#1-screenshots)
@@ -19,6 +13,12 @@
 - [6. Enjoy 🎉🎉🎉](#6-enjoy-)
 
 <!-- /TOC -->
+
+[![Marketplace](https://vsmarketplacebadge.apphb.com/version/yezige.vscode-theme-green-eyecare.svg)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/yezige.vscode-theme-green-eyecare.svg)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/yezige.vscode-theme-green-eyecare.svg)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
+
+[Green Eyecare](https://github.com/yezige/vscode-theme-green-eyecare) theme based on Material Design.
 
 ## 1. Screenshots
 ![Screenshots](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/preview.png)
