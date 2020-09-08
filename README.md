@@ -33,7 +33,7 @@ Screenshots:
 
 ![Screenshots](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/preview-cascadia-code.png)
 
-**Set font of VSCode**
+**1. Set font of VSCode**
 
 If you download and install the font in your system, you can add this option to have a custom font:
 
@@ -47,7 +47,7 @@ If you download and install the font in your system, you can add this option to 
     }
     ```
 
-**Set line height of VSCode**
+**2. Set line height of VSCode**
 
     ```json
     {
@@ -55,7 +55,7 @@ If you download and install the font in your system, you can add this option to 
     }
     ```
 
-**No need to set font size**
+**3. No need to set font size**
 
 ### 3.2. My merged font: **Inconsolata + Yue Yuan**
 
@@ -65,7 +65,7 @@ Screenshots:
 
 ![Screenshots](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/preview-LZ-YueYuan-Inconsolata.png)
 
-**Set font of VSCode**
+**1. Set font of VSCode**
     
 If you download and install the font in your system, you can add this option to have a custom font:
 
@@ -79,7 +79,7 @@ If you download and install the font in your system, you can add this option to 
     }
     ```
 
-**Set line height of VSCode**
+**2. Set line height of VSCode**
 
     ```json
     {
@@ -87,7 +87,7 @@ If you download and install the font in your system, you can add this option to 
     }
     ```
 
-**Set font size of VSCode (Only fine fonts are recommended)**
+**3. Set font size of VSCode (Only fine fonts are recommended)**
 
     ```json
     {
