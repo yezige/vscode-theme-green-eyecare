@@ -33,27 +33,27 @@ Screenshots:
 
 ![Screenshots](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/preview-cascadia-code.png)
 
-- Set font of VSCode
+**Set font of VSCode**
 
-    If you download and install the font in your system, you can add this option to have a custom font:
-    
-    1. Go to **View -> Command Palette** or press **Ctrl+Shift+P**
-    2. Then enter **Open Settings(JSON)**
-    3. In the opened file, modify or add the value of `editor.fontFamily` to `Cascadia Code`
-    
+If you download and install the font in your system, you can add this option to have a custom font:
+
+1. Go to **View -> Command Palette** or press **Ctrl+Shift+P**
+2. Then enter **Open Settings(JSON)**
+3. In the opened file, modify or add the value of `editor.fontFamily` to `Cascadia Code`
+
     ```json
     {
         "editor.fontFamily": "Cascadia Code"
     }
     ```
 
-- Set line height of VSCode
+**Set line height of VSCode**
     ```json
     {
         "editor.lineHeight": 22
     }
     ```
-- No need to set font size
+**No need to set font size**
 
 ### 3.2. My merged font: **Inconsolata + Yue Yuan**
 
@@ -63,27 +63,27 @@ Screenshots:
 
 ![Screenshots](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/preview-LZ-YueYuan-Inconsolata.png)
 
-- Set font of VSCode
+**Set font of VSCode**
     
-    If you download and install the font in your system, you can add this option to have a custom font:
-    
-    1. Go to **View -> Command Palette** or press **Ctrl+Shift+P**
-    1. Then enter **Open Settings(JSON)**
-    2. In the opened file, modify or add the value of `editor.fontFamily` to `LZ YueYuan Inconsolata`
+If you download and install the font in your system, you can add this option to have a custom font:
+
+1. Go to **View -> Command Palette** or press **Ctrl+Shift+P**
+2. Then enter **Open Settings(JSON)**
+3. In the opened file, modify or add the value of `editor.fontFamily` to `LZ YueYuan Inconsolata`
     
     ```json
     {
         "editor.fontFamily": "LZ YueYuan Inconsolata"
     }
     ```
-- Set line height of VSCode
+**Set line height of VSCode**
     ```json
     {
         "editor.lineHeight": 22
     }
     ```
 
-- Set font size of VSCode (Only fine fonts are recommended)
+**Set font size of VSCode (Only fine fonts are recommended)**
     ```json
     {
         "editor.fontSize": 15
