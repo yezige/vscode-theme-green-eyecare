@@ -49,11 +49,11 @@ If you download and install the font in your system, you can add this option to 
 
 **2. Set line height of VSCode**
 
-    ```json
-    {
-        "editor.lineHeight": 22
-    }
-    ```
+```json
+{
+    "editor.lineHeight": 22
+}
+```
 
 **3. No need to set font size**
 
@@ -81,19 +81,19 @@ If you download and install the font in your system, you can add this option to 
 
 **2. Set line height of VSCode**
 
-    ```json
-    {
-        "editor.lineHeight": 22
-    }
-    ```
+```json
+{
+    "editor.lineHeight": 22
+}
+```
 
 **3. Set font size of VSCode (Only fine fonts are recommended)**
 
-    ```json
-    {
-        "editor.fontSize": 15
-    }
-    ```
+```json
+{
+    "editor.fontSize": 15
+}
+```
 
 ## 4. What's new?
 
