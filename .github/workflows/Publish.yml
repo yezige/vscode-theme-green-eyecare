@@ -3,8 +3,8 @@ name: Publish
 on:
   push:
     tags:
-      - '**'
-      - '!**-alpha'
+      - "**"
+      - "!**-alpha"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,7 +20,7 @@ jobs:
         run: |
           echo "RELEASE_TAG=$(echo ${GITHUB_REF##*/})" >> $GITHUB_ENV
           echo "RELEASE_VERSION=$(echo ${GITHUB_REF##*/v})" >> $GITHUB_ENV
-          echo "::debug::TAG: ${env.RELEASE_TAG}"
+          echo "::debug::TAG: ${{ env.RELEASE_TAG }}"
 
       - name: Use Node.js
         uses: actions/setup-node@v1
@@ -36,15 +36,15 @@ jobs:
           VSCE_USER: ${{ secrets.VSCE_USER }}
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
         run: |
-          vsce publish -p ${VSCE_TOKEN} env.RELEASE_VERSION
-     
+          vsce publish -p ${VSCE_TOKEN} ${{ env.RELEASE_VERSION }}
+
       - name: Package
         id: package
         run: |
           vsce package
-          zip vscode-theme-green-eyecare-${env.RELEASE_VERSION}.zip *.vsix
+          zip vscode-theme-green-eyecare-${{ env.RELEASE_VERSION }}.zip *.vsix
           ls -al
-          echo "::set-output name=filename::vscode-theme-green-eyecare-${env.RELEASE_VERSION}.zip"
+          echo "::set-output name=filename::vscode-theme-green-eyecare-${{ env.RELEASE_VERSION }}.zip"
 
       - name: Create Release
         id: create_release
