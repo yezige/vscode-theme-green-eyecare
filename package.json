@@ -2,7 +2,7 @@
   "name": "vscode-theme-green-eyecare",
   "displayName": "Green Eyecare Theme",
   "description": "Material Green Eyecare Theme",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "engines": {
     "vscode": "^1.12.0"
   },
