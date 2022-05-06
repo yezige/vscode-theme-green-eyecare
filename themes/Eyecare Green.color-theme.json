@@ -2,130 +2,198 @@
   "name": "Eyecare Green",
   "type": "light",
   "colors": {
-    "foreground": "#519657",
-    "editor.foreground": "#616161",
+    "activityBar.background": "#c8e6c9", // 活动栏，即左侧竖条
+    "activityBar.foreground": "#519657",
+    "activityBarBadge.background": "#519657", // 左侧竖条数字标
+    "activityBarBadge.foreground": "#eeeeee",
+    "badge.background": "#519657", // 角标
+    "badge.foreground": "#eeeeee",
+    "button.background": "#519657",
+    "button.foreground": "#eeeeee",
+    "button.hoverBackground": "#519657",
+    "debugToolBar.background": "#a5d6a7",
+    "dropdown.background": "#c8e6c9", // 下拉
+    "dropdown.border": "#c5e1a5",
     "editor.background": "#c8e6c9",
+    "editor.foreground": "#616161",
     "editor.lineHighlightBackground": "#dcedc8",
     "editor.selectionBackground": "#f0f4c3",
-    "editorWidget.background": "#c8e6c9",
-    "editorHoverWidget.background": "#c8e6c9",
+    "editorBracketHighlight.foreground1": "#006db3", // 括号对前景色
+    "editorBracketHighlight.foreground2": "#388e3c", // 括号对前景色
+    "editorBracketHighlight.foreground3": "#c77800", // 括号对前景色
+    "editorGroupHeader.tabsBackground": "#c8e6c9",
+    "editorHoverWidget.background": "#c8e6c9", // 编辑器中鼠标悬浮小组件
     "editorHoverWidget.border": "#a5d6a7",
-    "editorLineNumber.foreground": "#a5d6a7",
-    "editorWhitespace.foreground": "#b4dcb4",
-    "editorIndentGuide.background": "#c8e6c9",
     "editorIndentGuide.activeBackground": "#a5d6a7",
+    "editorIndentGuide.background": "#c8e6c9",
+    "editorLineNumber.activeForeground": "#519657",
+    "editorLineNumber.foreground": "#a5d6a7",
     "editorSuggestWidget.background": "#c8e6c9",
     "editorSuggestWidget.border": "#a5d6a7",
     "editorSuggestWidget.foreground": "#338a3e",
     "editorSuggestWidget.highlightForeground": "#338a3e",
     "editorSuggestWidget.selectedBackground": "#a5d6a7",
-    "editorGroupHeader.tabsBackground": "#c8e6c9",
-    "editorLineNumber.activeForeground": "#519657",
-    "activityBar.background": "#c8e6c9",
-    "activityBar.foreground": "#519657",
-    "activityBarBadge.background": "#519657",
-    "activityBarBadge.foreground": "#eeeeee",
-    "input.background": "#c8e6c9",
-    "input.border": "#c5e1a5",
+    "editorWhitespace.foreground": "#b4dcb4",
+    "editorWidget.background": "#c8e6c9", // 编辑器中搜索小组件
+    "extensionButton.prominentBackground": "#3BBA54",
+    "extensionButton.prominentHoverBackground": "#4CC263",
     "focusBorder": "#c5e1a5",
-    "sideBar.background": "#c8e6c9",
+    "foreground": "#519657",
+    "gitDecoration.modifiedResourceForeground": "#00600f",
+    "icon.foreground": "#519657", // 图标前景色
+    "input.background": "#c8e6c9", // 输入框
+    "input.border": "#c5e1a5",
+    "list.activeSelectionBackground": "#dcedc8", // 资源管理器内部的文件列表
+    "list.activeSelectionForeground": "#519657",
+    "list.focusBackground": "#dcedc8",
+    "list.highlightForeground": "#519657",
+    "list.hoverBackground": "#dcedc8",
+    "list.inactiveFocusBackground": "#dcedc8",
+    "list.inactiveSelectionBackground": "#dcedc8",
+    "list.inactiveSelectionForeground": "#519657",
+    "menu.separatorBackground": "#a5d6a7", // 菜单及右键面板分隔符
+    "scrollbar.shadow": "#a5d6a7",
+    "scrollbarSlider.activeBackground": "#81c784",
+    "scrollbarSlider.background": "#a5d6a7",
+    "scrollbarSlider.hoverBackground": "#81c784",
+    "sideBar.background": "#c8e6c9", // 侧边栏，即资源管理器、搜索栏等
     "sideBarSectionHeader.background": "#c8e6c9",
-    "tab.activeBackground": "#c8e6c9",
-    "tab.activeForeground": "#519657",
-    "tab.inactiveBackground": "#c8e6c9",
-    "tab.inactiveForeground": "#97b498",
-    "tab.border": "#c8e6c9",
-    "badge.background": "#519657",
-    "badge.foreground": "#eeeeee",
-    "statusBar.background": "#c8e6c9",
-    "statusBar.foreground": "#519657",
-    "statusBar.noFolderBackground": "#519657",
+    "statusBar.background": "#c8e6c9", // 底部状态栏
     "statusBar.debuggingBackground": "#519657",
     "statusBar.debuggingForeground": "#00701a",
+    "statusBar.foreground": "#519657",
+    "statusBar.noFolderBackground": "#519657",
     "statusBarItem.hoverBackground": "#dcedc8",
     "statusBarItem.remoteBackground": "#519657",
     "statusBarItem.remoteForeground": "#00600f",
-    "debugToolBar.background": "#a5d6a7",
-    "button.background": "#519657",
-    "button.foreground": "#eeeeee",
-    "button.hoverBackground": "#519657",
-    "extensionButton.prominentBackground": "#3BBA54",
-    "extensionButton.prominentHoverBackground": "#4CC263",
-    "scrollbar.shadow": "#a5d6a7",
-    "scrollbarSlider.background": "#a5d6a7",
-    "scrollbarSlider.hoverBackground": "#81c784",
-    "scrollbarSlider.activeBackground": "#81c784",
-    "list.activeSelectionBackground": "#dcedc8",
-    "list.activeSelectionForeground": "#519657",
-    "list.inactiveSelectionBackground": "#dcedc8",
-    "list.inactiveSelectionForeground": "#519657",
-    "list.hoverBackground": "#dcedc8",
-    "list.highlightForeground": "#519657",
-    "list.focusBackground": "#dcedc8",
-    "list.inactiveFocusBackground": "#dcedc8",
-    "gitDecoration.modifiedResourceForeground": "#00600f",
-    "dropdown.background": "#c8e6c9",
-    "dropdown.border": "#c5e1a5",
-    "titleBar.activeBackground": "#c8e6c9",
+    "tab.activeBackground": "#c8e6c9", // 上方标签页
+    "tab.activeForeground": "#519657",
+    "tab.border": "#c8e6c9",
+    "tab.inactiveBackground": "#c8e6c9",
+    "tab.inactiveForeground": "#97b498",
+    "titleBar.activeBackground": "#c8e6c9", // 上方标题栏
     "titleBar.activeForeground": "#519657",
     "titleBar.inactiveBackground": "#c8e6c9",
     "titleBar.inactiveForeground": "#519657"
   },
   "tokenColors": [
     { "name": "备注", "scope": ["comment", "punctuation.definition.comment"], "settings": { "foreground": "#97b498", "fontStyle": "" } },
-    { "name": "类", "scope": [
-      "entity.name", "entity.name.type", "entity.name.type.class", "entity.name.class", "support.class", "entity.other.inherited-class",// 类
-      "source.java storage.modifier.import", "source.java storage.type"// java import,type
-      ], "settings": { "foreground": "#c88719" } },
-    { "name": "关键字", "scope":
-      [
-        "keyword", "meta.selector", "markup.changed",// 关键字,meta,markup
-        "keyword.operator.new",// new class
-        "keyword.other.unsafe.rust"// rust
-      ], "settings": { "foreground": "#ba68c8" } },
-    { "name": "关键字", "scope":
-      [
-        "source.c keyword.operator", "source.cpp keyword.operator", "source.cs keyword.operator",// 关键字c,cpp,cs
-        "source.elixir variable.definition", "source.elixir variable.anonymous",// elixir
-        "source.go storage.type.string",// go
-        "source.java keyword.operator.instanceof",// java
-        "ng.attribute-with-value string",// ng
-        "source.python keyword.operator.logical.python",// python
-        "source.java keyword.operator.instanceof"// java
-      ], "settings": { "foreground": "#ba68c8" } },
-    { "name": "变量", "scope":
-      [
-        "variable", "variable.parameter", "function.definition",
-        "punctuation.definition.variable", "punctuation.definition.variable.php", "punctuation.definition.variable.shell",
-        "variable.interpolation",// 属性
-        "support.type.object.module", "support.type.object.module.js", "support.type.object.module.ts",// js模块属性,js对象属性
-        "support.type.property-name", "support.type.property-name.json",// json属性
-        "meta.object-literal.key", "meta.object-literal.key.js", "meta.object-literal.key.ts", "meta.definition.variable",
-        "meta.function-call.arguments",// 方法调用中的参数
-        "entity.name.tag",// html标签
-      ], "settings": { "foreground": "#e57373" } },
+    {
+      "name": "类",
+      "scope": [
+        "entity.name",
+        "entity.name.type",
+        "entity.name.type.class",
+        "entity.name.class",
+        "support.class",
+        "entity.other.inherited-class", // 类
+        "source.java storage.modifier.import",
+        "source.java storage.type" // java import,type
+      ],
+      "settings": { "foreground": "#c88719" }
+    },
+    {
+      "name": "关键字",
+      "scope": [
+        "keyword",
+        "meta.selector",
+        "markup.changed", // 关键字,meta,markup
+        "keyword.operator.new", // new class
+        "keyword.other.unsafe.rust" // rust
+      ],
+      "settings": { "foreground": "#ba68c8" }
+    },
+    {
+      "name": "关键字",
+      "scope": [
+        "source.c keyword.operator",
+        "source.cpp keyword.operator",
+        "source.cs keyword.operator", // 关键字c,cpp,cs
+        "source.elixir variable.definition",
+        "source.elixir variable.anonymous", // elixir
+        "source.go storage.type.string", // go
+        "source.java keyword.operator.instanceof", // java
+        "ng.attribute-with-value string", // ng
+        "source.python keyword.operator.logical.python", // python
+        "source.java keyword.operator.instanceof" // java
+      ],
+      "settings": { "foreground": "#ba68c8" }
+    },
+    {
+      "name": "变量",
+      "scope": [
+        "variable",
+        "variable.parameter",
+        "function.definition",
+        "punctuation.definition.variable",
+        "punctuation.definition.variable.php",
+        "punctuation.definition.variable.shell",
+        "variable.interpolation", // 属性
+        "support.type.object.module",
+        "support.type.object.module.js",
+        "support.type.object.module.ts", // js模块属性,js对象属性
+        "support.type.property-name",
+        "support.type.property-name.json", // json属性
+        "meta.object-literal.key",
+        "meta.object-literal.key.js",
+        "meta.object-literal.key.ts",
+        "meta.definition.variable",
+        "meta.function-call.arguments", // 方法调用中的参数
+        "entity.name.tag" // html标签
+      ],
+      "settings": { "foreground": "#e57373" }
+    },
     { "name": "关键字-ifelse,continue", "scope": ["keyword.control"], "settings": { "foreground": "#ba68c8" } },
-    { "name": "关键字-运算符", "scope":
-      [
-        "keyword.operator", "meta.separator", "meta.tag", "meta.class.body", "meta.method-call", "meta.method",// 关键字-运算符,元分割符,元类主体,元方法调用
-        "punctuation.definition.method-parameters", "punctuation.definition.function-parameters", "punctuation.definition.parameters",
-        "punctuation.definition.separator", "punctuation.definition.seperator", "punctuation.definition.array", "punctuation.definition.class",
-        "punctuation.definition.arguments.begin", "punctuation.definition.arguments.end",// 方法参数的标点
-        "punctuation.separator", "punctuation.section.arguments",// 分割
-        "punctuation.terminator.statement",// 分号
-        "punctuation.section.block", "punctuation.section.class",// 大括号
-        "punctuation.section.parens",//小括号
-        "meta.object.member", "meta.objectliteral"// 括号,js冒号
-      ], "settings": { "foreground": "#616161" } },
+    {
+      "name": "关键字-运算符",
+      "scope": [
+        "keyword.operator",
+        "meta.separator",
+        "meta.tag",
+        "meta.class.body",
+        "meta.method-call",
+        "meta.method", // 关键字-运算符,元分割符,元类主体,元方法调用
+        "punctuation.definition.method-parameters",
+        "punctuation.definition.function-parameters",
+        "punctuation.definition.parameters",
+        "punctuation.definition.separator",
+        "punctuation.definition.seperator",
+        "punctuation.definition.array",
+        "punctuation.definition.class",
+        "punctuation.definition.arguments.begin",
+        "punctuation.definition.arguments.end", // 方法参数的标点
+        "punctuation.separator",
+        "punctuation.section.arguments", // 分割
+        "punctuation.terminator.statement", // 分号
+        "punctuation.section.block",
+        "punctuation.section.class", // 大括号
+        "punctuation.section.parens", //小括号
+        "meta.object.member",
+        "meta.objectliteral" // 括号,js冒号
+      ],
+      "settings": { "foreground": "#616161" }
+    },
     { "name": "方法名-自定义", "scope": ["entity.name.function", "support.function.any-method", "entity.name.section", "meta.function-call.generic"], "settings": { "foreground": "#5c6bc0" } },
     { "name": "方法名-系统", "scope": ["support.function", "keyword.other.special-method"], "settings": { "foreground": "#c8a415" } },
     { "name": "字符串", "scope": ["string"], "settings": { "foreground": "#519657" } },
-    { "name": "字符串-正则,`${res}`", "scope": ["string.regexp", "string.regexp keyword.operator", "string.regexp constant.character", "string.interpolated", "meta.template.expression.js punctuation.definition", "meta.template.expression.ts punctuation.definition"], "settings": { "foreground": "#e57373" } },
+    {
+      "name": "字符串-正则,`${res}`",
+      "scope": ["string.regexp", "string.regexp keyword.operator", "string.regexp constant.character", "string.interpolated", "meta.template.expression.js punctuation.definition", "meta.template.expression.ts punctuation.definition"],
+      "settings": { "foreground": "#e57373" }
+    },
     { "name": "属性", "scope": ["entity.other.attribute-name"], "settings": { "foreground": "#ab47bc" } },
-    { "name": "常量", "scope": [
-      "constant", "constant.character", "constant.numeric", "constant.language", "support.variable",
-      "entity.name.function.decorator"// 方法上部@xxx
-      ], "settings": { "foreground": "#c79100" } },
+    {
+      "name": "常量",
+      "scope": [
+        "constant",
+        "constant.character",
+        "constant.numeric",
+        "constant.language",
+        "support.variable",
+        "entity.name.function.decorator" // 方法上部@xxx
+      ],
+      "settings": { "foreground": "#c79100" }
+    },
     { "name": "双引号,单引号,属性名的字符", "scope": ["string.quoted punctuation", "string.quoted.double punctuation", "string.quoted.single punctuation", "support.type.property-name.json punctuation"], "settings": { "foreground": "#519657" } },
     { "name": "存储", "scope": ["storage", "storage.type", "storage.modifier.package", "storage.modifier.import"], "settings": { "foreground": "#ab47bc" } },
     { "name": "其他,标记中的引号,待加粗的,md的code", "scope": ["keyword.other.unit", "constant.other.color", "constant.other.symbol", "entity.other", "markup.quote", "punctuation.definition.bold", "markup.bold", "markup.inline.raw.string"], "settings": { "foreground": "#c79100" } },
