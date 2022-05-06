@@ -33,12 +33,10 @@ jobs:
 
       - name: Publish
         env:
-          VSCE_USER: ${{ secrets.VSCE_USER }}
+          # VSCE_USER: ${{ secrets.VSCE_USER }}
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
         run: |
-          git config --global user.name "yezi"
-          git config --global user.email "a@liu.app"
-          vsce publish ${{ env.RELEASE_VERSION }} -p ${VSCE_TOKEN} 
+          vsce publish -p ${VSCE_TOKEN}
 
       - name: Package
         id: package
