@@ -23,10 +23,10 @@
 
 ## 0️⃣Green Eyecare Theme
 
-[![VERSION](https://vsmarketplacebadges.dev/version-short/yezige.vscode-theme-green-eyecare.png?style=for-the-badge&colorA=212121&colorB=c8e6c9&label=VERSION)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
-[![DOWNLOADS](https://vsmarketplacebadges.dev/downloads-short/yezige.vscode-theme-green-eyecare.png?style=for-the-badge&colorA=212121&colorB=c8e6c9&label=DOWNLOADS)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
-[![INSTALLS](https://vsmarketplacebadges.dev/installs-short/yezige.vscode-theme-green-eyecare.png?style=for-the-badge&colorA=212121&colorB=c8e6c9&label=INSTALLS)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
-[![RATING](https://vsmarketplacebadges.dev/rating-star/yezige.vscode-theme-green-eyecare.png?style=for-the-badge&colorA=212121&colorB=c8e6c9&label=RATING)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
+[![VERSION](https://vsmarketplacebadges.dev/version-short/yezige.vscode-theme-green-eyecare.png?style=for-the-badge&colorA=212121&colorB=a5d6a7&label=VERSION)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
+[![DOWNLOADS](https://vsmarketplacebadges.dev/downloads-short/yezige.vscode-theme-green-eyecare.png?style=for-the-badge&colorA=212121&colorB=a5d6a7&label=DOWNLOADS)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
+[![INSTALLS](https://vsmarketplacebadges.dev/installs-short/yezige.vscode-theme-green-eyecare.png?style=for-the-badge&colorA=212121&colorB=a5d6a7&label=INSTALLS)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
+[![RATING](https://vsmarketplacebadges.dev/rating-star/yezige.vscode-theme-green-eyecare.png?style=for-the-badge&colorA=212121&colorB=a5d6a7&label=RATING)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
 
 [Green Eyecare](https://github.com/yezige/vscode-theme-green-eyecare) theme based on Material Design.
 

@@ -2,7 +2,7 @@
   "name": "vscode-theme-green-eyecare",
   "displayName": "Green Eyecare Theme",
   "description": "Material Green Eyecare Theme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.12.0"
   },
@@ -38,22 +38,22 @@
   },
   "badges": [
     {
-      "url": "https://vsmarketplacebadges.dev/version-short/yezige.vscode-theme-green-eyecare.png?style=for-the-badge&colorA=212121&colorB=c8e6c9&label=VERSION",
+      "url": "https://vsmarketplacebadges.dev/version-short/yezige.vscode-theme-green-eyecare.png?style=for-the-badge&colorA=212121&colorB=a5d6a7&label=VERSION",
       "href": "https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare",
       "description": "Extension version"
     },
     {
-      "url": "https://vsmarketplacebadges.dev/downloads-short/yezige.vscode-theme-green-eyecare.png?style=for-the-badge&colorA=212121&colorB=c8e6c9&label=DOWNLOADS",
+      "url": "https://vsmarketplacebadges.dev/downloads-short/yezige.vscode-theme-green-eyecare.png?style=for-the-badge&colorA=212121&colorB=a5d6a7&label=DOWNLOADS",
       "href": "https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare",
       "description": "Extension downloads"
     },
     {
-      "url": "https://vsmarketplacebadges.dev/installs-short/yezige.vscode-theme-green-eyecare.png?style=for-the-badge&colorA=212121&colorB=c8e6c9&label=INSTALLS",
+      "url": "https://vsmarketplacebadges.dev/installs-short/yezige.vscode-theme-green-eyecare.png?style=for-the-badge&colorA=212121&colorB=a5d6a7&label=INSTALLS",
       "href": "https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare",
       "description": "Extension installs"
     },
     {
-      "url": "https://vsmarketplacebadges.dev/rating-star/yezige.vscode-theme-green-eyecare.png?style=for-the-badge&colorA=212121&colorB=c8e6c9&label=RATING",
+      "url": "https://vsmarketplacebadges.dev/rating-star/yezige.vscode-theme-green-eyecare.png?style=for-the-badge&colorA=212121&colorB=a5d6a7&label=RATING",
       "href": "https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare",
       "description": "Extension Rating"
     }
