@@ -142,4 +142,4 @@ Paypal Sponsor
 
 Wechat Sponsor
 
-<img src="https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/praise_small.jpg" width="50%" alt="Wechat Sponsor" align=center />
+<img src="https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/praise_small.png" width="50%" alt="Wechat Sponsor" align=center />
