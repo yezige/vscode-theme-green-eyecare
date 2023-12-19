@@ -1,19 +1,18 @@
 const fs = require('fs')
+const config = require('./config.js')
 
-// create a JSON object
-const user = {
-  id: 1,
-  name: 'John Doe',
-  age: 22
+const themes = [{ name: 'Eyecare Green Dark', type: 'dark' }]
+for (let opt of themes) {
+  const json = config.getConfig(opt)
+
+  // write JSON string to a file
+  const themepath = 'themes/'
+  const filename = opt.name + '.color-theme.json'
+  fs.writeFile(themepath + filename, JSON.stringify(json, null, 2), (err) => {
+    if (err) {
+      throw err
+    }
+    console.log(`The theme json file ${filename}was generated successfully.`)
+  })
 }
 
-// convert JSON object to string
-const data = JSON.stringify(user, null, 2)
-
-// write JSON string to a file
-fs.writeFile('user.json', data, (err) => {
-  if (err) {
-    throw err
-  }
-  console.log('JSON data is saved.')
-})

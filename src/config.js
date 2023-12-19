@@ -5,21 +5,23 @@ const getConfig = (opt) => {
     foreground: '#ffffff96', // 文字前景色
     background: '#2b2936', // 主背景色
     border: '#333333', // 边框
+    borderDarken: '#ffffff15', // 边框变暗
     shadow: '#ffffff09', // 阴影
     pointColor: '#25995F', // 点缀色
     pointColorDarken: '#1f804f', // 点缀色变暗
     pointColorBrighten: '#2bb36f', // 点缀色变亮
     bracket1: '#ae6900', // 括号对1
-    bracket2: '#005d9a', // 括号对2
+    bracket2: '#007bcd', // 括号对2
     bracket3: '#ae6900', // 括号对3
     hoverPanelBackground: '#282828', // 鼠标悬停背景色
-    lineBackground: '#ffffff18', // 行高亮背景色
+    lineBackground: '#ffffff10', // 行高亮背景色
     activeTabBackground: '#292929', // 高亮标签页色
     codeBackground: '#ffffff12', // 代码块背景色
     selectionBackground: '#1f3e83', // 选中后颜色
     debugBackground: '#202020', // 调试工具栏颜色
     disabledForeground: '#ffffff25', // 无效内容前景色
     errorForeground: '#cc433a', // 错误内容前景色
+    errorBackground: '#7d1d17', // 错误内容背景色
     warningForeground: '#9f8210', // 异常内容前景色
     addedForeground: '#519657', // 新添加文件前景色
     findForeground: '#694924', // 搜索结果颜色
@@ -30,22 +32,21 @@ const getConfig = (opt) => {
     commentForeground: '#ffffff40', // 备注前景色
     keywordForeground: '#a25bae', // 关键字前景色
     variableForeground: '#cc4c4c', // 变量前景色
-    sysFunctionForeground: '#c8a415', // 系统方法名
-    functionForeground: '#5c6bc0', // 自定义方法名
+    sysFunctionForeground: '#c09e14', // 系统方法名
+    functionForeground: '#606fc8', // 自定义方法名
     classForeground: '#C78718', // 类名
     regexpForeground: '#d46a6a', // 正则
     attributeForeground: '#943da3', // 属性
-    otherForeground: '#ae7e00', // 其他
-  }
-  if (light) {
+    constForeground: '#aea815', // 常量
+    otherForeground: '#ae7e00' // 其他
   }
   return setConfig(conf)
 }
 
 const setConfig = (c) => {
   return {
-    name: 'Eyecare Green',
-    type: 'light',
+    name: c.name,
+    type: c.type,
     colors: {
       focusBorder: c.border,
       foreground: c.foreground,
@@ -106,8 +107,10 @@ const setConfig = (c) => {
       'statusBarItem.hoverForeground': c.foreground,
       'statusBarItem.remoteBackground': c.pointColor,
       'statusBarItem.remoteForeground': c.foreground,
+      'statusBarItem.errorForeground': c.foreground,
+      'statusBarItem.errorBackground': c.errorBackground,
       'debugToolBar.background': c.debugBackground,
-      'debugExceptionWidget.background': c.errorForeground,
+      'debugExceptionWidget.background': c.errorBackground,
       'button.background': c.pointColor,
       'button.foreground': c.foreground,
       'button.hoverBackground': c.pointColor,
@@ -141,7 +144,8 @@ const setConfig = (c) => {
       'panelInput.border': c.border,
       'panelTitle.activeForeground': c.pointColor,
       'panelTitle.inactiveForeground': c.foreground,
-      'editorBracketMatch.border': c.border
+      'editorBracketMatch.border': c.borderDarken,
+      'terminalCursor.foreground': c.pointColor
     },
     tokenColors: [
       { name: '备注', scope: ['comment', 'punctuation.definition.comment'], settings: { foreground: c.commentForeground, fontStyle: '' } },
@@ -273,7 +277,7 @@ const setConfig = (c) => {
           'support.variable',
           'entity.name.function.decorator' // 方法上部@xxx
         ],
-        settings: { foreground: '#C7C118' }
+        settings: { foreground: c.constForeground }
       },
       {
         name: '双引号,单引号,属性名的字符',
@@ -299,4 +303,4 @@ const setConfig = (c) => {
     ]
   }
 }
-exports = { getConfig }
+module.exports = { getConfig }
