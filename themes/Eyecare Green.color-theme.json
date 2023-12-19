@@ -24,8 +24,8 @@
     "editorGroupHeader.tabsBackground": "#c8e6c9",
     "editorHoverWidget.background": "#c8e6c9", // 编辑器中鼠标悬浮小组件
     "editorHoverWidget.border": "#a5d6a7",
-    "editorIndentGuide.activeBackground": "#a5d6a7",
-    "editorIndentGuide.background": "#c8e6c9",
+    "editorIndentGuide.activeBackground1": "#a5d6a7",
+    "editorIndentGuide.background1": "#c8e6c9",
     "editorLineNumber.activeForeground": "#519657",
     "editorLineNumber.foreground": "#a5d6a7",
     "editorSuggestWidget.background": "#c8e6c9",
