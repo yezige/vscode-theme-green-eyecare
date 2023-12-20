@@ -2,7 +2,7 @@
   "name": "vscode-theme-green-eyecare",
   "displayName": "Green Eyecare Theme",
   "description": "Material Green Eyecare Theme, new support for dark & light themes",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "build": "node ./src/index"
   },
@@ -31,7 +31,7 @@
       },
       {
         "label": "Eyecare Green Dark",
-        "uiTheme": "vs",
+        "uiTheme": "vs-dark",
         "path": "./themes/Eyecare Green Dark.color-theme.json"
       }
     ]
