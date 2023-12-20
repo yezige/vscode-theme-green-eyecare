@@ -12,7 +12,7 @@ for (let opt of themes) {
     if (err) {
       throw err
     }
-    console.log(`The theme json file ${filename}was generated successfully.`)
+    console.log(`The theme json file ${filename} was generated successfully.`)
   })
 }
 

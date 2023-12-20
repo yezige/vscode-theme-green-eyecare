@@ -23,7 +23,7 @@ const getConfig = (opt) => {
     errorForeground: '#cc433a', // 错误内容前景色
     errorBackground: '#7d1d17', // 错误内容背景色
     warningForeground: '#9f8210', // 异常内容前景色
-    addedForeground: '#519657', // 新添加文件前景色
+    addedForeground: '#25995F', // 新添加文件前景色
     findForeground: '#694924', // 搜索结果颜色
     lineNumberForeground: '#ffffff20', // 行号非激活颜色
     whitespaceForeground: '#ffffff20', // 空格颜色
@@ -31,7 +31,7 @@ const getConfig = (opt) => {
     scrollbarForeground: '#ffffff40', // 滚动条激活色
     commentForeground: '#ffffff40', // 备注前景色
     keywordForeground: '#a25bae', // 关键字前景色
-    variableForeground: '#cc4c4c', // 变量前景色
+    variableForeground: '#c24848', // 变量前景色
     sysFunctionForeground: '#c09e14', // 系统方法名
     functionForeground: '#606fc8', // 自定义方法名
     classForeground: '#C78718', // 类名
@@ -58,6 +58,7 @@ const setConfig = (c) => {
       'editor.foreground': c.foreground,
       'editor.background': c.background,
       'editor.lineHighlightBackground': c.lineBackground,
+      'editor.hoverHighlightBackground': c.lineBackground,
       'editor.selectionBackground': c.selectionBackground,
       'editor.findMatchHighlightBackground': c.findForeground,
       'editorCursor.foreground': c.foreground,
@@ -129,7 +130,7 @@ const setConfig = (c) => {
       'list.inactiveFocusBackground': c.hoverPanelBackground,
       'list.warningForeground': c.warningForeground,
       'list.errorForeground': c.errorForeground,
-      'gitDecoration.addedResourceForeground': c.pointColor,
+      'gitDecoration.addedResourceForeground': c.addedForeground,
       'gitDecoration.untrackedResourceForeground': c.pointColor,
       'gitDecoration.modifiedResourceForeground': c.warningForeground,
       'dropdown.background': c.background,
@@ -202,7 +203,7 @@ const setConfig = (c) => {
           'entity.name.tag', // html标签
           'support.type.property-name.json punctuation' // json key
         ],
-        settings: { foreground: c.variableForegrouc }
+        settings: { foreground: c.variableForeground }
       },
       {
         name: '关键字-运算符',
@@ -237,7 +238,7 @@ const setConfig = (c) => {
       {
         name: '方法名-自定义',
         scope: ['entity.name.function', 'support.function.any-method', 'entity.name.section', 'meta.function-call.generic'],
-        settings: { foreground: c.functionForegrouc }
+        settings: { foreground: c.functionForeground }
       },
       {
         name: '类',
@@ -284,7 +285,7 @@ const setConfig = (c) => {
         scope: ['string.quoted punctuation', 'string.quoted.double punctuation', 'string.quoted.single punctuation', 'source.json.comments'],
         settings: { foreground: c.pointColor }
       },
-      { name: '存储', scope: ['storage', 'storage.type', 'storage.modifier.package', 'storage.modifier.import'], settings: { foreground: c.attributeForegrouc } },
+      { name: '存储', scope: ['storage', 'storage.type', 'storage.modifier.package', 'storage.modifier.import'], settings: { foreground: c.attributeForeground } },
       {
         name: '其他,标记中的引号,待加粗的,md的code',
         scope: [

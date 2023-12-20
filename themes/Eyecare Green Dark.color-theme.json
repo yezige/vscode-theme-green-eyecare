@@ -12,6 +12,7 @@
     "editor.foreground": "#ffffff96",
     "editor.background": "#2b2936",
     "editor.lineHighlightBackground": "#ffffff10",
+    "editor.hoverHighlightBackground": "#ffffff10",
     "editor.selectionBackground": "#1f3e83",
     "editor.findMatchHighlightBackground": "#694924",
     "editorCursor.foreground": "#ffffff96",
@@ -177,7 +178,9 @@
         "entity.name.tag",
         "support.type.property-name.json punctuation"
       ],
-      "settings": {}
+      "settings": {
+        "foreground": "#c24848"
+      }
     },
     {
       "name": "关键字-运算符",
@@ -228,7 +231,9 @@
         "entity.name.section",
         "meta.function-call.generic"
       ],
-      "settings": {}
+      "settings": {
+        "foreground": "#606fc8"
+      }
     },
     {
       "name": "类",
@@ -312,7 +317,9 @@
         "storage.modifier.package",
         "storage.modifier.import"
       ],
-      "settings": {}
+      "settings": {
+        "foreground": "#943da3"
+      }
     },
     {
       "name": "其他,标记中的引号,待加粗的,md的code",
