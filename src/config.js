@@ -22,7 +22,7 @@ const getConfig = (opt) => {
     disabledForeground: '#ffffff25', // 无效内容前景色
     errorForeground: '#cc433a', // 错误内容前景色
     errorBackground: '#7d1d17', // 错误内容背景色
-    warningForeground: '#9f8210', // 异常内容前景色
+    warningForeground: '#BD954B', // 异常内容前景色
     addedForeground: '#519657', // 新添加文件前景色
     findForeground: '#694924', // 搜索结果颜色
     lineNumberForeground: '#ffffff20', // 行号非激活颜色
@@ -81,7 +81,8 @@ const setConfig = (c) => {
       'editorGroupHeader.tabsBackground': c.background,
       'editorLink.activeForeground': c.linkactiveForeground,
       'activityBar.background': c.background,
-      'activityBar.foreground': c.pointColor,
+      "activityBar.inactiveForeground": c.pointColorDarken,
+      'activityBar.foreground': c.pointColorBrighten,
       'activityBarBadge.background': c.pointColorDarken,
       'activityBarBadge.foreground': c.foreground,
       'textCodeBlock.background': c.codeBackground,
