@@ -82,7 +82,7 @@ const setConfig = (c) => {
       'editorGroupHeader.tabsBackground': c.background,
       'editorLink.activeForeground': c.linkactiveForeground,
       'activityBar.background': c.background,
-      "activityBar.inactiveForeground": c.pointColorDarken,
+      'activityBar.inactiveForeground': c.pointColorDarken,
       'activityBar.foreground': c.pointColorBrighten,
       'activityBarBadge.background': c.pointColorDarken,
       'activityBarBadge.foreground': c.foreground,
@@ -125,6 +125,7 @@ const setConfig = (c) => {
       'list.activeSelectionBackground': c.lineBackground,
       'list.activeSelectionForeground': c.pointColor,
       'list.inactiveSelectionBackground': c.lineBackground,
+      'list.inactiveSelectionForeground': c.pointColor,
       'list.hoverBackground': c.lineBackground,
       'list.highlightForeground': c.pointColor,
       'list.focusBackground': c.hoverPanelBackground,
@@ -141,13 +142,15 @@ const setConfig = (c) => {
       'titleBar.inactiveBackground': c.background,
       'titleBar.inactiveForeground': c.pointColor,
       'menu.separatorBackground': c.border,
+      'menu.foreground': c.foreground,
       'tree.indentGuidesStroke': c.border,
       'tree.inactiveIndentGuidesStroke': c.background,
       'panelInput.border': c.border,
       'panelTitle.activeForeground': c.pointColor,
       'panelTitle.inactiveForeground': c.foreground,
       'editorBracketMatch.border': c.borderDarken,
-      'terminalCursor.foreground': c.pointColor
+      'terminalCursor.foreground': c.pointColor,
+      'terminal.foreground': c.foreground
     },
     tokenColors: [
       { name: '备注', scope: ['comment', 'punctuation.definition.comment'], settings: { foreground: c.commentForeground, fontStyle: '' } },
