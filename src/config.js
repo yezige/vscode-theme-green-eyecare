@@ -30,13 +30,13 @@ const getConfig = (opt) => {
     linkactiveForeground: '#7487f3', // 链接激活色
     scrollbarForeground: '#ffffff40', // 滚动条激活色
     commentForeground: '#ffffff40', // 备注前景色
-    keywordForeground: '#a25bae', // 关键字前景色
-    variableForeground: '#c24848', // 变量前景色
+    keywordForeground: '#AA5FB8', // 关键字前景色
+    variableForeground: '#C25D48', // 变量前景色
     sysFunctionForeground: '#c09e14', // 系统方法名
-    functionForeground: '#606fc8', // 自定义方法名
+    functionForeground: '#6C7DE0', // 自定义方法名
     classForeground: '#C78718', // 类名
     regexpForeground: '#d46a6a', // 正则
-    attributeForeground: '#943da3', // 属性
+    attributeForeground: '#AB46BD', // 属性
     constForeground: '#aea815', // 常量
     otherForeground: '#ae7e00' // 其他
   }
