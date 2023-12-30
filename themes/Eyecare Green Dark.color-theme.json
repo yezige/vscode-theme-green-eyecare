@@ -127,7 +127,7 @@
         "keyword.other.unsafe.rust"
       ],
       "settings": {
-        "foreground": "#a25bae"
+        "foreground": "#AA5FB8"
       }
     },
     {
@@ -145,7 +145,7 @@
         "source.java keyword.operator.instanceof"
       ],
       "settings": {
-        "foreground": "#a25bae"
+        "foreground": "#AA5FB8"
       }
     },
     {
@@ -154,7 +154,7 @@
         "keyword.control"
       ],
       "settings": {
-        "foreground": "#a25bae"
+        "foreground": "#AA5FB8"
       }
     },
     {
@@ -183,7 +183,7 @@
         "support.type.property-name.json punctuation"
       ],
       "settings": {
-        "foreground": "#c24848"
+        "foreground": "#C25D48"
       }
     },
     {
@@ -236,7 +236,7 @@
         "meta.function-call.generic"
       ],
       "settings": {
-        "foreground": "#606fc8"
+        "foreground": "#6C7DE0"
       }
     },
     {
@@ -284,7 +284,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#943da3"
+        "foreground": "#AB46BD"
       }
     },
     {
@@ -322,7 +322,7 @@
         "storage.modifier.import"
       ],
       "settings": {
-        "foreground": "#943da3"
+        "foreground": "#AB46BD"
       }
     },
     {
