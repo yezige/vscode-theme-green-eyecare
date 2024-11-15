@@ -14,7 +14,8 @@
     "editor.lineHighlightBackground": "#ffffff10",
     "editor.hoverHighlightBackground": "#ffffff10",
     "editor.selectionBackground": "#1f3e83",
-    "editor.findMatchHighlightBackground": "#69492490",
+    "editor.findMatchBackground": "#694924",
+    "editor.findMatchHighlightBackground": "#69492460",
     "editorCursor.foreground": "#ffffff96",
     "editorWidget.background": "#2b2936",
     "editorWidget.resizeBorder": "#2b2936",
@@ -127,7 +128,7 @@
         "keyword.other.unsafe.rust"
       ],
       "settings": {
-        "foreground": "#AA5FB8"
+        "foreground": "#ae56bd"
       }
     },
     {
@@ -145,7 +146,7 @@
         "source.java keyword.operator.instanceof"
       ],
       "settings": {
-        "foreground": "#AA5FB8"
+        "foreground": "#ae56bd"
       }
     },
     {
@@ -154,7 +155,7 @@
         "keyword.control"
       ],
       "settings": {
-        "foreground": "#AA5FB8"
+        "foreground": "#ae56bd"
       }
     },
     {
@@ -183,7 +184,7 @@
         "support.type.property-name.json punctuation"
       ],
       "settings": {
-        "foreground": "#C25D48"
+        "foreground": "#ce4665"
       }
     },
     {
@@ -236,7 +237,7 @@
         "meta.function-call.generic"
       ],
       "settings": {
-        "foreground": "#6C7DE0"
+        "foreground": "#5386e4"
       }
     },
     {

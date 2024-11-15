@@ -24,7 +24,7 @@ const getConfig = (opt) => {
     errorBackground: '#7d1d17', // 错误内容背景色
     warningForeground: '#9f8210', // 异常内容前景色
     addedForeground: '#25995F', // 新添加文件前景色
-    findForeground: '#69492490', // 搜索结果颜色
+    findForeground: '#694924', // 搜索结果颜色
     lineNumberForeground: '#ffffff20', // 行号非激活颜色
     whitespaceForeground: '#ffffff20', // 空格颜色
     linkactiveForeground: '#7487f3', // 链接激活色
