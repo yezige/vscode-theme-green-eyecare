@@ -30,10 +30,10 @@ const getConfig = (opt) => {
     linkactiveForeground: '#7487f3', // 链接激活色
     scrollbarForeground: '#ffffff40', // 滚动条激活色
     commentForeground: '#ffffff40', // 备注前景色
-    keywordForeground: '#AA5FB8', // 关键字前景色
-    variableForeground: '#C25D48', // 变量前景色
+    keywordForeground: '#ae56bd', // 关键字前景色
+    variableForeground: '#ce4665', // 变量前景色
     sysFunctionForeground: '#c09e14', // 系统方法名
-    functionForeground: '#6C7DE0', // 自定义方法名
+    functionForeground: '#5386e4', // 自定义方法名
     classForeground: '#C78718', // 类名
     regexpForeground: '#d46a6a', // 正则
     attributeForeground: '#AB46BD', // 属性
@@ -60,7 +60,8 @@ const setConfig = (c) => {
       'editor.lineHighlightBackground': c.lineBackground,
       'editor.hoverHighlightBackground': c.lineBackground,
       'editor.selectionBackground': c.selectionBackground,
-      'editor.findMatchHighlightBackground': c.findForeground,
+      'editor.findMatchBackground': c.findForeground,
+      'editor.findMatchHighlightBackground': `${c.findForeground}60`,
       'editorCursor.foreground': c.foreground,
       'editorWidget.background': c.background,
       'editorWidget.resizeBorder': c.background,
