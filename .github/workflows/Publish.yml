@@ -22,21 +22,11 @@ jobs:
           echo "RELEASE_VERSION=$(echo ${GITHUB_REF##*/v})" >> $GITHUB_ENV
           echo "::debug::TAG: ${{ env.RELEASE_TAG }}"
 
-      - name: Use Node.js
-        uses: actions/setup-node@v1
+      - uses: lannonbr/vsce-action@4.0.0
         with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: Install vsce
-        run: |
-          npm install -g @vscode/vsce
-
-      - name: Publish
+          args: "publish -p $VSCE_TOKEN"
         env:
-          # VSCE_USER: ${{ secrets.VSCE_USER }}
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
-        run: |
-          vsce publish -p ${VSCE_TOKEN}
 
       - name: Package
         id: package
