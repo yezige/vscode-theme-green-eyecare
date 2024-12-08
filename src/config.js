@@ -31,7 +31,7 @@ const getConfig = (opt) => {
     scrollbarForeground: '#ffffff40', // 滚动条激活色
     commentForeground: '#ffffff30', // 备注前景色
     keywordForeground: '#ae56bd', // 关键字前景色
-    variableForeground: '#bd3253', // 变量前景色
+    variableForeground: '#b62f4f', // 变量前景色
     sysFunctionForeground: '#3669c9', // 系统方法名
     functionForeground: '#4679d8', // 自定义方法名
     classForeground: '#C78718', // 类名
