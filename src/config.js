@@ -2,12 +2,12 @@ const getConfig = (opt) => {
   let conf = {
     name: opt.name,
     type: opt.type,
-    foreground: '#ffffff96', // 文字前景色
-    background: '#2b2936', // 主背景色
-    border: '#333333', // 边框
+    foreground: '#ffffff77', // 文字前景色
+    background: '#121217', // 主背景色
+    border: '#262626', // 边框
     borderDarken: '#ffffff15', // 边框变暗
     shadow: '#ffffff09', // 阴影
-    pointColor: '#25995F', // 点缀色
+    pointColor: '#258354', // 点缀色，绿色
     pointColorDarken: '#1f804f', // 点缀色变暗
     pointColorBrighten: '#2bb36f', // 点缀色变亮
     bracket1: '#ae6900', // 括号对1
@@ -23,17 +23,17 @@ const getConfig = (opt) => {
     errorForeground: '#cc433a', // 错误内容前景色
     errorBackground: '#7d1d17', // 错误内容背景色
     warningForeground: '#9f8210', // 异常内容前景色
-    addedForeground: '#25995F', // 新添加文件前景色
+    addedForeground: '#258354', // 新添加文件前景色
     findForeground: '#694924', // 搜索结果颜色
     lineNumberForeground: '#ffffff20', // 行号非激活颜色
-    whitespaceForeground: '#ffffff20', // 空格颜色
+    whitespaceForeground: '#ffffff10', // 空格颜色
     linkactiveForeground: '#7487f3', // 链接激活色
     scrollbarForeground: '#ffffff40', // 滚动条激活色
-    commentForeground: '#ffffff40', // 备注前景色
+    commentForeground: '#ffffff30', // 备注前景色
     keywordForeground: '#ae56bd', // 关键字前景色
-    variableForeground: '#ce4665', // 变量前景色
-    sysFunctionForeground: '#c09e14', // 系统方法名
-    functionForeground: '#5386e4', // 自定义方法名
+    variableForeground: '#bd3253', // 变量前景色
+    sysFunctionForeground: '#3669c9', // 系统方法名
+    functionForeground: '#4679d8', // 自定义方法名
     classForeground: '#C78718', // 类名
     regexpForeground: '#d46a6a', // 正则
     attributeForeground: '#AB46BD', // 属性
