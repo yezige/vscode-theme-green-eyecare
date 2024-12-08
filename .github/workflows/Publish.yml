@@ -24,14 +24,13 @@ jobs:
 
       - uses: lannonbr/vsce-action@4.0.0
         with:
-          args: "publish -p $VSCE_TOKEN"
+          args: "publish -p $VSCE_TOKEN && vsce package"
         env:
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
 
       - name: Package
         id: package
         run: |
-          vsce package
           zip vscode-theme-green-eyecare-${{ env.RELEASE_VERSION }}.zip *.vsix
           ls -al
           echo "::set-output name=filename::vscode-theme-green-eyecare-${{ env.RELEASE_VERSION }}.zip"
