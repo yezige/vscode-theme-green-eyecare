@@ -2,7 +2,7 @@ const getConfig = (opt) => {
   let conf = {
     name: opt.name,
     type: opt.type,
-    foreground: '#ffffff77', // 文字前景色
+    foreground: '#ffffff87', // 文字前景色
     background: '#121217', // 主背景色
     border: '#262626', // 边框
     borderDarken: '#ffffff15', // 边框变暗
