@@ -184,7 +184,7 @@
         "support.type.property-name.json punctuation"
       ],
       "settings": {
-        "foreground": "#b62f4f"
+        "foreground": "#b53367"
       }
     },
     {
@@ -237,7 +237,7 @@
         "meta.function-call.generic"
       ],
       "settings": {
-        "foreground": "#4679d8"
+        "foreground": "#376cce"
       }
     },
     {
