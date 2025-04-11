@@ -32,7 +32,7 @@
 
 ## 1️⃣ Screenshots
 
-![Screenshots](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/preview_2.png)
+![Screenshots](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/preview_2.svg)
 ![Screenshots](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/preview.png)
 
 _The font in the picture is Cascadia Code_
