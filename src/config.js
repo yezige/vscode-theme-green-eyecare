@@ -3,7 +3,8 @@ const getConfig = (opt) => {
     name: opt.name,
     type: opt.type,
     foreground: '#ffffff87', // 文字前景色
-    background: '#121217', // 主背景色
+    background: '#1b1b26', // 主背景色
+    backgroundHighlight: '#121217', // 背景色加深
     border: '#262626', // 边框
     borderDarken: '#ffffff15', // 边框变暗
     shadow: '#ffffff09', // 阴影
@@ -94,10 +95,11 @@ const setConfig = (c) => {
       'inputOption.activeBorder': c.border,
       'sideBar.background': c.background,
       'sideBarSectionHeader.background': c.background,
-      'tab.activeBackground': c.highlightBackground,
+      'tab.activeBackground': c.backgroundHighlight,
       'tab.activeForeground': c.pointColor,
       'tab.inactiveBackground': c.background,
       'tab.inactiveForeground': c.foreground,
+      'tab.activeBorder': c.pointColor,
       'tab.border': c.background,
       'badge.background': c.pointColor,
       'badge.foreground': c.foreground,
