@@ -3,7 +3,7 @@ const getConfig = (opt) => {
     name: opt.name,
     type: opt.type,
     foreground: '#ffffff87', // 文字前景色
-    background: '#1b1b26', // 主背景色
+    background: '#191923', // 主背景色
     backgroundHighlight: '#121217', // 背景色加深
     border: '#262626', // 边框
     borderDarken: '#ffffff15', // 边框变暗
