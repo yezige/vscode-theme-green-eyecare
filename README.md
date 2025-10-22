@@ -1,26 +1,3 @@
-<!-- TOC -->
-
-- [0️⃣ Green Eyecare Theme](#0️⃣-green-eyecare-theme)
-- [1️⃣ Screenshots](#1️⃣-screenshots)
-- [2️⃣ Install](#2️⃣-install)
-  - [Install using GUI](#install-using-gui)
-  - [Install using Command Palette](#install-using-command-palette)
-- [3️⃣ Custom font](#3️⃣-custom-font)
-  - [1. Microsoft font (recommended): **Cascadia Code**](#1-microsoft-font-recommended-cascadia-code)
-    - [1.1 Set font of VSCode](#11-set-font-of-vscode)
-    - [1.2 Set line height of VSCode](#12-set-line-height-of-vscode)
-    - [1.3 No need to set font size](#13-no-need-to-set-font-size)
-  - [2. My merged font: **Inconsolata + Yue Yuan**](#2-my-merged-font-inconsolata--yue-yuan)
-    - [2.1 Set font of VSCode](#21-set-font-of-vscode)
-    - [2.2 Set line height of VSCode](#22-set-line-height-of-vscode)
-    - [2.3 Set font size of VSCode (Only fine fonts are recommended)](#23-set-font-size-of-vscode-only-fine-fonts-are-recommended)
-- [4️⃣ What's new?](#4️⃣-whats-new)
-- [5️⃣ See my blog for details](#5️⃣-see-my-blog-for-details)
-- [6️⃣ Enjoy 🎉🎉🎉](#6️⃣-enjoy-)
-- [7️⃣ Coffee Time 💝](#7️⃣-coffee-time-)
-
-<!-- /TOC -->
-
 ## 0️⃣ Green Eyecare Theme
 
 [![VERSION](https://vsmarketplacebadges.dev/version-short/yezige.vscode-theme-green-eyecare.png?style=for-the-badge&colorA=212121&colorB=a5d6a7&label=VERSION)](https://marketplace.visualstudio.com/items/yezige.vscode-theme-green-eyecare)
