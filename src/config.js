@@ -8,7 +8,7 @@ const getConfig = (opt) => {
     border: '#262626', // 边框
     borderDarken: '#ffffff15', // 边框变暗
     shadow: '#ffffff09', // 阴影
-    pointColor: '#288d5b', // 点缀色，绿色
+    pointColor: '#2a9560', // 点缀色，绿色
     pointColorDarken: '#1f804f', // 点缀色变暗
     pointColorDarkenest: '#0c3420', // 点缀色变最暗
     pointColorBrighten: '#2bb36f', // 点缀色变亮
@@ -32,13 +32,13 @@ const getConfig = (opt) => {
     linkactiveForeground: '#7487f3', // 链接激活色
     scrollbarForeground: '#ffffff40', // 滚动条激活色
     commentForeground: '#ffffff30', // 备注前景色
-    keywordForeground: '#ae56bd', // 关键字前景色
-    variableForeground: '#c2376e', // 变量前景色
-    sysFunctionForeground: '#376cce', // 系统方法名
+    keywordForeground: '#ba5cca', // 关键字前景色
+    variableForeground: '#cf3b75', // 变量前景色
+    sysFunctionForeground: '#3a73db', // 系统方法名
     functionForeground: '#376cce', // 自定义方法名
     classForeground: '#ba7e16', // 类名
     regexpForeground: '#d46a6a', // 正则
-    attributeForeground: '#AB46BD', // 属性
+    attributeForeground: '#b74bca', // 属性
     constForeground: '#aea815', // 常量
     otherForeground: '#ae7e00' // 其他
   }
@@ -101,6 +101,7 @@ const setConfig = (c) => {
       foreground: c.foreground,
       'gitDecoration.addedResourceForeground': c.addedForeground,
       'gitDecoration.modifiedResourceForeground': c.warningForeground,
+      'gitDecoration.stageModifiedResourceForeground': c.warningForeground,
       'gitDecoration.untrackedResourceForeground': c.pointColor,
       'icon.foreground': c.foreground,
       'input.background': c.background,
