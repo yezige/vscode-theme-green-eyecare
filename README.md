@@ -9,7 +9,10 @@
 
 ## 1️⃣ Screenshots
 
+Eyecare Green Dark Blue (New added)
 ![Screenshots](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/preview_3.png)
+
+Eyecare Green Dark(Original)
 ![Screenshots](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/preview_4.png)
 
 _The font in the picture is Cascadia Code_
