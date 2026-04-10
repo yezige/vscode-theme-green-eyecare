@@ -15,7 +15,7 @@ Eyecare Green Dark Blue (New added)
 Eyecare Green Dark(Original)
 ![Screenshots](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/preview_4.png)
 
-_The font in the picture is Cascadia Code_
+_The font in the picture is `Roboto Mono`_
 
 ## 2️⃣ Install
 
