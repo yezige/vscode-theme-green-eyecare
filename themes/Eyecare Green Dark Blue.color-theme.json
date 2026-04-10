@@ -1,0 +1,365 @@
+{
+  "name": "Eyecare Green Dark Blue",
+  "type": "dark",
+  "colors": {
+    "activityBar.background": "#181821",
+    "activityBar.foreground": "#2bb36f",
+    "activityBar.inactiveForeground": "#1f804f",
+    "activityBarBadge.background": "#1f804f",
+    "activityBarBadge.foreground": "#ffffff92",
+    "badge.background": "#2a9560",
+    "badge.foreground": "#ffffff92",
+    "button.background": "#2a9560",
+    "button.foreground": "#ffffff92",
+    "button.hoverBackground": "#2a9560",
+    "debugExceptionWidget.background": "#7d1d17",
+    "debugToolBar.background": "#202020",
+    "descriptionForeground": "#ffffff92",
+    "disabledForeground": "#ffffff25",
+    "dropdown.background": "#181821",
+    "dropdown.border": "#262626",
+    "editor.background": "#181821",
+    "editor.findMatchBackground": "#694924",
+    "editor.findMatchHighlightBackground": "#69492460",
+    "editor.foreground": "#ffffff92",
+    "editor.hoverHighlightBackground": "#ffffff10",
+    "editor.lineHighlightBackground": "#ffffff10",
+    "editor.selectionBackground": "#1f3e83",
+    "editorBracketHighlight.foreground1": "#ae6900",
+    "editorBracketHighlight.foreground2": "#007bcd",
+    "editorBracketHighlight.foreground3": "#ae6900",
+    "editorBracketMatch.border": "#ffffff15",
+    "editorCursor.foreground": "#ffffff92",
+    "editorGroupHeader.tabsBackground": "#181821",
+    "editorHoverWidget.background": "#282828",
+    "editorHoverWidget.border": "#262626",
+    "editorIndentGuide.activeBackground1": "#262626",
+    "editorIndentGuide.background1": "#181821",
+    "editorLineNumber.activeForeground": "#2a9560",
+    "editorLineNumber.foreground": "#ffffff20",
+    "editorLink.activeForeground": "#7487f3",
+    "editorSuggestWidget.background": "#181821",
+    "editorSuggestWidget.border": "#262626",
+    "editorSuggestWidget.foreground": "#ffffff92",
+    "editorSuggestWidget.highlightForeground": "#ffffff92",
+    "editorSuggestWidget.selectedBackground": "#262626",
+    "editorWhitespace.foreground": "#ffffff10",
+    "editorWidget.background": "#181821",
+    "editorWidget.resizeBorder": "#181821",
+    "errorForeground": "#cc433a",
+    "extensionButton.prominentBackground": "#2a9560",
+    "extensionButton.prominentHoverBackground": "#2bb36f",
+    "focusBorder": "#262626",
+    "foreground": "#ffffff92",
+    "gitDecoration.addedResourceForeground": "#ffffff92",
+    "gitDecoration.modifiedResourceForeground": "#ffffff92",
+    "gitDecoration.stageModifiedResourceForeground": "#ffffff92",
+    "gitDecoration.untrackedResourceForeground": "#2a9560",
+    "icon.foreground": "#ffffff92",
+    "input.background": "#181821",
+    "input.border": "#262626",
+    "inputOption.activeBackground": "#2a9560",
+    "inputOption.activeBorder": "#262626",
+    "list.activeSelectionBackground": "#ffffff10",
+    "list.activeSelectionForeground": "#2a9560",
+    "list.errorForeground": "#cc433a",
+    "list.focusBackground": "#282828",
+    "list.highlightForeground": "#2a9560",
+    "list.hoverBackground": "#ffffff10",
+    "list.inactiveFocusBackground": "#282828",
+    "list.inactiveSelectionBackground": "#ffffff10",
+    "list.inactiveSelectionForeground": "#2a9560",
+    "list.warningForeground": "#ffffff92",
+    "menu.foreground": "#ffffff92",
+    "menu.separatorBackground": "#262626",
+    "panel.border": "#262626",
+    "panelInput.border": "#262626",
+    "panelTitle.activeForeground": "#2a9560",
+    "panelTitle.inactiveForeground": "#ffffff92",
+    "scrollbar.shadow": "#262626",
+    "scrollbarSlider.activeBackground": "#2a9560",
+    "scrollbarSlider.background": "#ffffff40",
+    "scrollbarSlider.hoverBackground": "#2a9560",
+    "sideBar.background": "#181821",
+    "sideBar.border": "#262626",
+    "sideBarSectionHeader.background": "#181821",
+    "statusBar.background": "#181821",
+    "statusBar.debuggingBackground": "#2a9560",
+    "statusBar.debuggingForeground": "#ffffff92",
+    "statusBar.foreground": "#2a9560",
+    "statusBar.noFolderBackground": "#2a9560",
+    "statusBarItem.errorBackground": "#7d1d17",
+    "statusBarItem.errorForeground": "#ffffff92",
+    "statusBarItem.hoverBackground": "#2bb36f",
+    "statusBarItem.hoverForeground": "#ffffff92",
+    "statusBarItem.remoteBackground": "#2a9560",
+    "statusBarItem.remoteForeground": "#ffffff92",
+    "tab.activeBackground": "#0c3420",
+    "tab.activeBorder": "#2a9560",
+    "tab.activeForeground": "#ffffff92",
+    "tab.border": "#181821",
+    "tab.inactiveBackground": "#181821",
+    "tab.inactiveForeground": "#ffffff92",
+    "terminal.ansiWhite": "#ffffff92",
+    "terminal.foreground": "#ffffff92",
+    "terminalCursor.foreground": "#2a9560",
+    "textCodeBlock.background": "#ffffff12",
+    "titleBar.activeBackground": "#181821",
+    "titleBar.activeForeground": "#2a9560",
+    "titleBar.inactiveBackground": "#181821",
+    "titleBar.inactiveForeground": "#2a9560",
+    "tree.inactiveIndentGuidesStroke": "#181821",
+    "tree.indentGuidesStroke": "#262626",
+    "widget.border": "#181821",
+    "widget.shadow": "#ffffff09"
+  },
+  "tokenColors": [
+    {
+      "name": "备注",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#ffffff30",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "关键字",
+      "scope": [
+        "keyword",
+        "meta.selector",
+        "markup.changed",
+        "keyword.operator.new",
+        "keyword.other.unsafe.rust"
+      ],
+      "settings": {
+        "foreground": "#ba5cca"
+      }
+    },
+    {
+      "name": "关键字",
+      "scope": [
+        "source.c keyword.operator",
+        "source.cpp keyword.operator",
+        "source.cs keyword.operator",
+        "source.elixir variable.definition",
+        "source.elixir variable.anonymous",
+        "source.go storage.type.string",
+        "source.java keyword.operator.instanceof",
+        "ng.attribute-with-value string",
+        "source.python keyword.operator.logical.python",
+        "source.java keyword.operator.instanceof"
+      ],
+      "settings": {
+        "foreground": "#ba5cca"
+      }
+    },
+    {
+      "name": "关键字-ifelse,continue",
+      "scope": [
+        "keyword.control"
+      ],
+      "settings": {
+        "foreground": "#ba5cca"
+      }
+    },
+    {
+      "name": "变量",
+      "scope": [
+        "source",
+        "variable",
+        "variable.parameter",
+        "function.definition",
+        "punctuation.definition.variable",
+        "punctuation.definition.variable.php",
+        "punctuation.definition.variable.shell",
+        "variable.interpolation",
+        "support.type.object.module",
+        "support.type.object.module.js",
+        "support.type.object.module.ts",
+        "support.type.property-name",
+        "support.type.property-name.json",
+        "meta.object-literal.key",
+        "meta.object-literal.key.js",
+        "meta.object-literal.key.ts",
+        "meta.definition.variable",
+        "meta.function-call.arguments",
+        "meta.tag.metadata",
+        "entity.name.tag",
+        "support.type.property-name.json punctuation"
+      ],
+      "settings": {
+        "foreground": "#6eaeb8"
+      }
+    },
+    {
+      "name": "关键字-运算符",
+      "scope": [
+        "keyword.operator",
+        "meta.separator",
+        "meta.tag",
+        "meta.class.body",
+        "meta.method-call",
+        "meta.method",
+        "punctuation.definition.method-parameters",
+        "punctuation.definition.function-parameters",
+        "punctuation.definition.parameters",
+        "punctuation.definition.separator",
+        "punctuation.definition.seperator",
+        "punctuation.definition.array",
+        "punctuation.definition.class",
+        "punctuation.definition.arguments.begin",
+        "punctuation.definition.arguments.end",
+        "punctuation.separator",
+        "punctuation.section.arguments",
+        "punctuation.terminator.statement",
+        "punctuation.section.block",
+        "punctuation.section.class",
+        "punctuation.section.parens",
+        "meta.object.member",
+        "meta.objectliteral"
+      ],
+      "settings": {
+        "foreground": "#ffffff92"
+      }
+    },
+    {
+      "name": "方法名-系统",
+      "scope": [
+        "support.function",
+        "keyword.other.special-method"
+      ],
+      "settings": {
+        "foreground": "#3a73db"
+      }
+    },
+    {
+      "name": "方法名-自定义",
+      "scope": [
+        "entity.name.function",
+        "support.function.any-method",
+        "entity.name.section",
+        "meta.function-call.generic"
+      ],
+      "settings": {
+        "foreground": "#db6d9a"
+      }
+    },
+    {
+      "name": "类",
+      "scope": [
+        "entity.name",
+        "entity.name.type",
+        "entity.name.type.class",
+        "entity.name.class",
+        "support.class",
+        "entity.other.inherited-class",
+        "source.java storage.modifier.import",
+        "source.java storage.type"
+      ],
+      "settings": {
+        "foreground": "#ba7e16"
+      }
+    },
+    {
+      "name": "字符串",
+      "scope": [
+        "string"
+      ],
+      "settings": {
+        "foreground": "#2a9560"
+      }
+    },
+    {
+      "name": "字符串-正则,`${res}`",
+      "scope": [
+        "string.regexp",
+        "string.regexp keyword.operator",
+        "string.regexp constant.character",
+        "string.interpolated",
+        "meta.template.expression.js punctuation.definition",
+        "meta.template.expression.ts punctuation.definition"
+      ],
+      "settings": {
+        "foreground": "#d46a6a"
+      }
+    },
+    {
+      "name": "属性",
+      "scope": [
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#b74bca"
+      }
+    },
+    {
+      "name": "常量",
+      "scope": [
+        "constant",
+        "constant.character",
+        "constant.numeric",
+        "constant.language",
+        "support.variable",
+        "entity.name.function.decorator"
+      ],
+      "settings": {
+        "foreground": "#aea815"
+      }
+    },
+    {
+      "name": "双引号,单引号,属性名的字符",
+      "scope": [
+        "string.quoted punctuation",
+        "string.quoted.double punctuation",
+        "string.quoted.single punctuation",
+        "source.json.comments"
+      ],
+      "settings": {
+        "foreground": "#2a9560"
+      }
+    },
+    {
+      "name": "存储",
+      "scope": [
+        "storage",
+        "storage.type",
+        "storage.modifier.package",
+        "storage.modifier.import"
+      ],
+      "settings": {
+        "foreground": "#b74bca"
+      }
+    },
+    {
+      "name": "其他,标记中的引号,待加粗的,md的code",
+      "scope": [
+        "keyword.other.unit",
+        "constant.other.color",
+        "constant.other.symbol",
+        "entity.other",
+        "markup.quote",
+        "punctuation.definition.bold",
+        "markup.bold",
+        "markup.inline.raw.string"
+      ],
+      "settings": {
+        "foreground": "#ae7e00"
+      }
+    },
+    {
+      "name": "加粗,md前两级标题,待加粗的",
+      "scope": [
+        "heading.1",
+        "heading.2",
+        "punctuation.definition.bold",
+        "markup.bold"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

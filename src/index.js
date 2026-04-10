@@ -1,7 +1,10 @@
 const fs = require('fs')
 const config = require('./config.js')
 
-const themes = [{ name: 'Eyecare Green Dark', type: 'dark' }]
+const themes = [
+  { name: 'Eyecare Green Dark', type: 'dark', code: 'dark' },
+  { name: 'Eyecare Green Dark Blue', type: 'dark', code: 'dark-blue' }
+]
 for (let opt of themes) {
   const json = config.getConfig(opt)
 
@@ -15,4 +18,3 @@ for (let opt of themes) {
     console.log(`The theme json file ${filename} was generated successfully.`)
   })
 }
-

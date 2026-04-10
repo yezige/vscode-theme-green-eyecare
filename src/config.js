@@ -1,7 +1,5 @@
-const getConfig = (opt) => {
-  let conf = {
-    name: opt.name,
-    type: opt.type,
+const conf = {
+  dark: {
     foreground: '#ffffff92', // 文字前景色
     background: '#181821', // 主背景色
     backgroundHighlight: '#121217', // 背景色加深
@@ -41,8 +39,55 @@ const getConfig = (opt) => {
     attributeForeground: '#b74bca', // 属性
     constForeground: '#aea815', // 常量
     otherForeground: '#ae7e00' // 其他
+  },
+  'dark-blue': {
+    foreground: '#ffffff92', // 文字前景色
+    background: '#181821', // 主背景色
+    backgroundHighlight: '#121217', // 背景色加深
+    border: '#262626', // 边框
+    borderDarken: '#ffffff15', // 边框变暗
+    shadow: '#ffffff09', // 阴影
+    pointColor: '#2a9560', // 点缀色，绿色
+    pointColorDarken: '#1f804f', // 点缀色变暗
+    pointColorDarkenest: '#0c3420', // 点缀色变最暗
+    pointColorBrighten: '#2bb36f', // 点缀色变亮
+    bracket1: '#ae6900', // 括号对1
+    bracket2: '#007bcd', // 括号对2
+    bracket3: '#ae6900', // 括号对3
+    hoverPanelBackground: '#282828', // 鼠标悬停背景色
+    lineBackground: '#ffffff10', // 行高亮背景色
+    activeTabBackground: '#292929', // 高亮标签页色
+    codeBackground: '#ffffff12', // 代码块背景色
+    selectionBackground: '#1f3e83', // 选中后颜色
+    debugBackground: '#202020', // 调试工具栏颜色
+    disabledForeground: '#ffffff25', // 无效内容前景色
+    errorForeground: '#cc433a', // 错误内容前景色
+    errorBackground: '#7d1d17', // 错误内容背景色
+    warningForeground: '#ffffff92', // 异常内容前景色
+    addedForeground: '#ffffff92', // 新添加文件前景色
+    findForeground: '#694924', // 搜索结果颜色
+    lineNumberForeground: '#ffffff20', // 行号非激活颜色
+    whitespaceForeground: '#ffffff10', // 空格颜色
+    linkactiveForeground: '#7487f3', // 链接激活色
+    scrollbarForeground: '#ffffff40', // 滚动条激活色
+    commentForeground: '#ffffff30', // 备注前景色
+    keywordForeground: '#ba5cca', // 关键字前景色
+    variableForeground: '#6eaeb8', // 变量前景色，使用淡蓝色
+    sysFunctionForeground: '#3a73db', // 系统方法名
+    functionForeground: '#db6d9a', // 自定义方法名，使用淡红色
+    classForeground: '#ba7e16', // 类名
+    regexpForeground: '#d46a6a', // 正则
+    attributeForeground: '#b74bca', // 属性
+    constForeground: '#aea815', // 常量
+    otherForeground: '#ae7e00' // 其他
   }
-  return setConfig(conf)
+}
+
+const getConfig = (opt) => {
+  let c = conf[opt.code]
+  c.name = opt.name
+  c.type = opt.type
+  return setConfig(c)
 }
 
 const setConfig = (c) => {
